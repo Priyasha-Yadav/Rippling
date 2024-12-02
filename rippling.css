@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    letter-spacing: 0.1mm;
 }
 
 nav {
@@ -11,7 +12,7 @@ nav {
     align-items: center;
     font-size: 1.1 rem;
     color: white;
-   
+
     justify-content: space-between;
     padding-right: 2%;
 }
@@ -43,17 +44,19 @@ nav a svg {
     padding: 12px;
     font-weight: bold;
     font-size: 0.9rem;
-    letter-spacing: 0.1mm;;
+
 }
 
 .eng img {
     height: 2.5vh;
-margin-right:5px ;
+    margin-right: 5px;
     border-radius: 100%;
 }
+
 .eng p {
     opacity: 0.8;
 }
+
 .eng {
     display: flex;
 
@@ -66,87 +69,215 @@ margin-right:5px ;
 
 }
 
-.nav_cont{
+.nav_cont {
     display: flex;
-   align-items: center;
-   width: 50%;
-   justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
 }
-.nav_cont_right{
+
+.nav_cont_right {
     width: 25%;
 }
-.hero{
+
+.hero {
     background-color: #402530;
     color: white;
 }
-.cut-out img{
+
+.cut-out img {
     height: 55vh;
 }
-.lower_hero{
+
+.lower_hero {
     display: flex;
     justify-content: space-between;
     padding: 1% 12% 4% 12%;
 }
-.rating{
+
+.rating {
     width: 20%;
     text-align: center;
     line-height: 1.6rem;
-    letter-spacing:0.3mm;
+    letter-spacing: 0.3mm;
     font-size: 0.9rem;
-    
+
 }
-.rate{
+
+.rate {
     opacity: 0.7;
 }
-.upper_hero{
+
+.upper_hero {
     display: flex;
- justify-content: space-evenly;
- padding: 7.5% 2.5% 7% 4%;
+    justify-content: space-evenly;
+    padding: 7.5% 2.5% 7% 4%;
 }
-.text-heading{
+
+.text-heading {
     width: 35%;
     margin-top: 5%;
     letter-spacing: 0.2mm;
 }
-.text-heading h1{
+
+.text-heading h1 {
     font-size: 3rem;
 }
-.text-heading p{
+
+.text-heading p {
     margin-top: 1%;
     line-height: 0.6cm;
     opacity: 0.8;
 }
-.business-suites{
-    text-align: center;
+
+input[type="email"] {
+    background-color: #502D3B;
+    border-style: none;
+    width: 20vw;
+    padding-left: 13px;
 }
 
-input[type="email"]{
-background-color: #502D3B;
-border-style: none;
-width: 20vw;
-padding-left: 13px;
-}
-
-input[type="email"]::placeholder{
+input[type="email"]::placeholder {
     color: white;
     opacity: 0.5;
     font-size: 1rem;
 
-  
+
 }
-.email{
+
+.email {
     background-color: #502D3B;
     display: inline-block;
     padding: 7px;
     margin-top: 5%;
     border-radius: 3px;
-    border:1px solid #65394a;
- 
+    border: 1px solid #65394a;
+
 }
-.bigger{
-    height:7vh;
+
+.bigger {
+    height: 7vh;
     width: 10vw;
 }
-.privacy{
+
+.privacy {
     font-size: 0.5rem;
+}
+
+.business-suites {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 7%;
+}
+
+.align-center {
+    width: 50%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #402530;
+    font-weight: bolder;
+    transform: scaleX(1.1);
+    margin: 2%;
+
+}
+
+.business-part-img {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.business-suites p {
+    line-height: 7mm;
+    color: #402530;
+
+}
+
+.capital {
+    letter-spacing: 0.3mm;
+    font-size: 0.8rem;
+    color: #402530;
+    opacity: 1;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+}
+
+
+.text-ready p{
+    color: #BEA1B0;
+    opacity: 0.7;
+    font-size: 1.1rem;
+}
+
+
+
+hr{
+    opacity: 0.9;
+    color: #4F2D3C;
+}
+
+.footer__columns{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: #4F2D3C;
+ padding: 0 0 4% 7%;
+    
+}
+.footer__columns a{
+    text-decoration: none;
+    color: #BEA1B0;
+    opacity: 0.7;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+}
+
+.footer__columns h4{
+margin-top: 25%;
+}
+
+
+.footer__columns h4{
+    color: white;
+    font-size: 1.7rem;
+}
+.lic{
+    color: #BEA1B0;
+    opacity: 0.7;
+}
+.footer__item img{
+    height: 3vh;
+}
+
+.action{
+    display: flex;
+    padding: 4% 0 4% 12%;
+    background-color: #4F2D3C;
+    border-radius: 0 0 50px 50px;
+  
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+      
+         
+}
+.h2_white{
+    color: white;
+}
+
+.icons a {
+    margin-left: 2%;
+}.text-ready{
+    width: 50%;
 }
