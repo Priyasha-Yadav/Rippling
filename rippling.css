@@ -1,19 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-nav{
-    height: 13vh;
-    background-color:#402530 ;
+nav {
+    height: 11vh;
+    background-color: #402530;
     display: flex;
     align-items: center;
-  
+    font-size: 1.1 rem;
+    color: white;
+    font-family: sans-serif;
+    justify-content: space-between;
+    padding-right: 2%;
 }
-.logo{
-    height: 100%;
-    
-    background-color: white;
-background-image: url('/HTML/diwali/images_q=tbn_ANd9GcQabJ3CYqjKyC5fzcN9L_orll2ATgVbf5T9cg&s.png');
-color: white;
+
+.logo {
+    height: 7vh;
+    width: 11vw;
+    background-image: url('./Screenshot\ 2024-12-02\ at\ 9.43.10\ AM.png');
+    background-size: contain;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a svg {
+    height: 1vh;
+
+}
+
+.see_ripp {
+    color: #402530;
+    background-color: #FDB71B;
+    border-style: none;
+    border-radius: 2px;
+    height: 5.5vh;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.eng img {
+    height: 2.5vh;
+margin-right:5px ;
+    border-radius: 100%;
+}
+.eng p {
+    opacity: 0.8;
+}
+.eng {
+    display: flex;
+
+}
+
+.vertical {
+    border: 0.5px solid white;
+    height: 4vh;
+    opacity: 0.5;
+
+}
+
+.nav_cont{
+    display: flex;
+   align-items: center;
+   width: 50%;
+   justify-content: space-around;
+}
+.nav_cont_right{
+    width: 25%;
 }
